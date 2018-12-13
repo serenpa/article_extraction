@@ -7,7 +7,7 @@ def main():
 	data = article_extraction.full_extraction(URL)
 
     print("Full HTML: ", data["html"])
-	print("Article text: ", data["pattern_extraction"]["article_text"])
+	print("Article text: ", data["pattern_extraction"]["extracted_text"])
 
 if __name__ == '__main__':
 	main()
