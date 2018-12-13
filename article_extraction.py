@@ -56,7 +56,7 @@ def pattern_article_extraction(url):
 
     """
     try:
-        url = URL(uri, method=GET)
+        url = URL(url, method=GET)
         r = url.download(unicode=True)
         content_string = str(r)  # default is utf-8
 
